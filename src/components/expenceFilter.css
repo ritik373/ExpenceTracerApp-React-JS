@@ -1,0 +1,12 @@
+.filter{
+    display: flex; 
+    color: aliceblue;
+    /* width: min-content; */
+  justify-content: space-between;
+
+}
+#selectFilter{
+    width: 100PX;
+    height: min-content;
+    margin-top: 30PX;
+}

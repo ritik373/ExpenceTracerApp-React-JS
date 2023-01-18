@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    /* background-color: aqua; */
+}
+.cards{
+    background-color:black;
+    border: 5px solid gray ;border-radius: 10PX;
+    width: 500px;
+    height: max-content;
+    margin-left: 25%;
+    box-shadow: 300px rgb(44, 224, 44);
+  
+}

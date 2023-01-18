@@ -1,0 +1,32 @@
+
+.cardset{
+    /* display: inline; */
+    display: flex; 
+    background-color:black;
+    /* width: min-content; */
+  justify-content: space-around;
+  
+
+
+
+}
+.btn1{
+    background-color: black;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:gray;
+    color: aliceblue;
+ 
+}
+.btn2{
+    background-color: aqua;
+    border-radius: 20px;
+    background-color: blue;
+    width: 100px;
+    height: 70px;
+ 
+}
+h3{
+    color: aliceblue;
+}
