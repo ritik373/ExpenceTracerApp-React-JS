@@ -19,10 +19,7 @@ const NewExpence = (props) => {
 
     }
     return <div>
-        <ExpenceForm
-         onSaveExpenceData={ExpenceDetail}
-            // name="ritik gupta"
-             />
+        <ExpenceForm onSaveExpenceData={ExpenceDetail}  onClose={props.onClick}/>
 
     </div>
 }

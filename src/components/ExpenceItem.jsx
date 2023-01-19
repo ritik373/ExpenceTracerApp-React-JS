@@ -28,7 +28,7 @@ const ExpenceItem = (props) => {
 
         <div className="card">
             <div className="flex cardset">
-                <button className="btn1">{new Date().toLocaleString()}</button>
+                <lable className="btn1">{props.date}</lable>
                 <h3>{title}</h3>
                 <button className="btn2">${props.amount}</button>
                 <button style={{ height: "50px", width: "80px" }} onClick={onClickHandler} onDoubleClick={ondblclickHandler}>Change Title</button>

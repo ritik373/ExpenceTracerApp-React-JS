@@ -35,7 +35,7 @@ const ExpenceForm = (props) => {
             id: "e" + count++,
             title: title,
             amount: amount,
-            date: new Date(date).toDateString(),
+            date: new Date(),
         }
      
  
@@ -60,7 +60,8 @@ const ExpenceForm = (props) => {
         <label htmlFor="amount">Date:</label>
         <input type="date" name="dto" id="date_timepicker_end" value={date} onChange={onChangeHandler3}></input>
         <label htmlFor="amount">Submit </label>
-        <button type="submit">Submit Detail</button>
+        <button type="submit" style={{color:"white"}}>Submit Detail</button>
+        <button onClick={props.onClose} style={{color:"white"}}>Cancel Expence</button>
 
 
     </form>
