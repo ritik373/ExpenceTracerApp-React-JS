@@ -2,11 +2,15 @@ form{
     width:500px;
     height: 300px;
     background-color: rgb(91, 214, 91);
+    background-color: aliceblue;
+    background-color: grey;
     display: grid;
     grid-template-columns: auto auto ;
     grid-gap: 10px;
     align-items: center;
-    margin-left: 220px;
+    /* margin-left: -25px; */
+    border-radius: 30px;
+    border: 5px solid wheat;
    
 
     

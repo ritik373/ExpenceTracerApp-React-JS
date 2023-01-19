@@ -35,7 +35,7 @@ const ExpenceForm = (props) => {
             id: "e" + count++,
             title: title,
             amount: amount,
-            date: new Date(),
+            date: new Date(date),
         }
      
  
